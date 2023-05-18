@@ -2,24 +2,17 @@ import java.util.WeakHashMap;
 
 public class Main {
     public static void main(String[] args) {
-        int contador = 0;
-
-        while (contador < 10) {
-            System.out.println("Contador = " + contador);
-            // Icremento
-            contador = contador + 1;
-        }
-        // laço para faça
-        for(int x = 0; x < 10; x++) {
-            System.out.println("Contador = " + x);
-        }
-        // Laço faça enquanto
-        int cont = 1;
-        do {
-            //Processo
-            System.out.println(cont);
-            //Incremento
-            cont++;
-        }while(cont <= 10);
+       //Aula Introdutoria de Orientação Objetos
+    // Declaração de Objetos
+    Pessoa adao;
+    //Instanciação de objeto
+    adao = new Pessoa();
+    //Ao mesmo tempo
+    Pessoa qualquer = new Pessoa();
+    //Definir formato do objeto
+    qualquer.nome = "Rita";
+    qualquer.sobrenome = "Lee";
+    qualquer.falar();
+        System.out.println((qualquer.falar("oi"));
     }
 }
