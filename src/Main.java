@@ -28,5 +28,6 @@ public class Main {
         rainha.sobrenome = "Turnner";
         //Definição de comportamento
         rainha.falar();
+        rainha.comer();
     }
 }
