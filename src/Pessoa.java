@@ -9,4 +9,10 @@ public class Pessoa {
     public String falar(String texto){
         return "texto";
     }
+    public Pessoa criarPessoa(){
+        return  new Pessoa();
+    }
+    public void comer(){
+        System.out.println("pessoa comeu");
+    }
 }
